@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Git_test
 {
@@ -6,7 +7,28 @@ namespace Git_test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Football gameBall = new Football();
         }
+
+        class Football
+        {
+            int x;
+            int y;
+            int speed;
+            bool inGoal;
+        }
+
+        class Player
+        {
+            int x;
+            int y;
+            int speed;
+            string team;
+            string name;
+            int age;
+
+        }
+
     }
+
 }
